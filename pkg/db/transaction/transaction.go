@@ -5,8 +5,8 @@ import (
 
 	"github.com/jackc/pgx/v5"
 	"github.com/pkg/errors"
-	"github.com/quietdevil/platform-common/pkg/db"
-	"github.com/quietdevil/platform-common/pkg/db/pg"
+	"github.com/quietdevil/Platform_common/pkg/db"
+	"github.com/quietdevil/Platform_common/pkg/db/pg"
 )
 
 type TxManager struct {

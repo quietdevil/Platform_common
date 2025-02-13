@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/quietdevil/platform-common/pkg/db"
+	"github.com/quietdevil/Platform_common/pkg/db"
 )
 
 type DBClient struct {
