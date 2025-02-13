@@ -2,11 +2,11 @@ package pg
 
 import (
 	"context"
-	"platform-common/pkg/db"
 
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/jackc/pgx/v5/pgxpool"
+	"github.com/quietdevil/platform-common/pkg/db"
 )
 
 type key string

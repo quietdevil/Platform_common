@@ -2,11 +2,11 @@ package transaction
 
 import (
 	"context"
-	"platform-common/pkg/db"
-	"platform-common/pkg/db/pg"
 
 	"github.com/jackc/pgx/v5"
 	"github.com/pkg/errors"
+	"github.com/quietdevil/platform-common/pkg/db"
+	"github.com/quietdevil/platform-common/pkg/db/pg"
 )
 
 type TxManager struct {
